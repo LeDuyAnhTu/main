@@ -1,0 +1,71 @@
+C:\Users\Administrator\Desktop\QL_BHX\bin\Debug\QL_BHX.exe.config
+C:\Users\Administrator\Desktop\QL_BHX\bin\Debug\QL_BHX.exe
+C:\Users\Administrator\Desktop\QL_BHX\bin\Debug\QL_BHX.pdb
+C:\Users\Administrator\Desktop\QL_BHX\bin\Debug\aa\QL_BHX.resources.dll
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.frmMain.resources
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.frmDangNhap.resources
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_NhanVien.resources
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.Properties.Resources.resources
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.frmMain.aa.resources
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\aa\QL_BHX.resources.dll
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.exe
+C:\Users\Administrator\Desktop\QL_BHX\obj\Debug\QL_BHX.pdb
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\bin\Debug\QL_BHX.exe.config
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\bin\Debug\QL_BHX.exe
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\bin\Debug\QL_BHX.pdb
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\bin\Debug\aa\QL_BHX.resources.dll
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.csproj.AssemblyReference.cache
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmMain.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmDangNhap.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.Properties.Resources.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmMain.aa.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.csproj.GenerateResource.cache
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.csproj.CoreCompileInputs.cache
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\aa\QL_BHX.resources.dll
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.exe
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.pdb
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.csproj.AssemblyReference.cache
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.frmMain.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.frmDangNhap.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.frmQuanLyDiaChiChiNhanh.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.frmQuanLyHoaDon.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_NhanVien.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.Properties.Resources.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.frmMain.aa.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.csproj.GenerateResource.cache
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.csproj.CoreCompileInputs.cache
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.exe
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\QL_BHX.pdb
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\bin\Debug\QL_BHX.exe.config
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\bin\Debug\QL_BHX.exe
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\bin\Debug\QL_BHX.pdb
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\bin\Debug\aa\QL_BHX.resources.dll
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\Merge-Center\QL_BHX(ver0.2)\QL_BHX\obj\Debug\aa\QL_BHX.resources.dll
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmQuanLyHoaDon.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_DC.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_KH.resources
+C:\Users\Windows\OneDrive\Máy tính\School\HK3-LTUD\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_NV.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\bin\Debug\QL_BHX.exe.config
+D:\QL_BHX(ver 0.5)\QL_BHX\bin\Debug\QL_BHX.exe
+D:\QL_BHX(ver 0.5)\QL_BHX\bin\Debug\QL_BHX.pdb
+D:\QL_BHX(ver 0.5)\QL_BHX\bin\Debug\aa\QL_BHX.resources.dll
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.csproj.AssemblyReference.cache
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmMain.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmDangNhap.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_DC.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmQuanLyHoaDon.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_KH.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmQuanLy_NV.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.Properties.Resources.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.frmMain.aa.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.csproj.GenerateResource.cache
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.csproj.CoreCompileInputs.cache
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\aa\QL_BHX.resources.dll
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.exe
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.pdb
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.Forms.frmProduct.resources
+D:\QL_BHX(ver 0.5)\QL_BHX\obj\Debug\QL_BHX.Forms.frmBanHang.resources
