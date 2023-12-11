@@ -23,6 +23,8 @@ AS
 BEGIN
 	DELETE FROM ChiTietHD WHERE maHD = @maHD
 END
+GO
+--------------------------------------------------------
 DROP PROCEDURE IF EXISTS sp_chitiethoadon_xoa_sanpham
 GO
 CREATE PROCEDURE sp_chitiethoadon_xoa_sanpham
@@ -32,6 +34,7 @@ AS
 BEGIN
 	DELETE FROM ChiTietHD WHERE maHD = @maHD AND maSP = @maSP
 END
+GO
 ---- ================================================
 ---- Chi tiết Hóa đơn sửa
 ---- ================================================
@@ -70,7 +73,7 @@ AS
 BEGIN
 	SELECT * FROM ChiTietHD WHERE maHD = @maHD
 END
-
+GO
 
 -- ================================================
 -- Chi tiết hóa đơn lấy danh sách chi tiết
@@ -86,7 +89,8 @@ BEGIN
 	where ct.maSP = sp.maSP AND ct.maHD = @maHD
 END
 GO
-exec sp_chitiethoadon_layDanhSach
+
+
 
 
 

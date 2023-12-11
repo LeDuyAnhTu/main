@@ -52,12 +52,15 @@ go
 CREATE PROCEDURE sp_hoadon_layDanhSach
 AS
 BEGIN
-	SELECT * from HoaDon
+	SELECT hd.maHD as N'Mã hóa đơn', hd.ngayLap as N'Ngày lập', nv.tenNV as N'Người lập', hd.thanhTien as N'Tổng tiền'
+	from HoaDon hd, NhanVien nv
 END
 GO
 exec sp_hoadon_layDanhSach
 
-
+-- ================================================
+-- Tìm kiếm hóa đơn
+-- ================================================
 
 drop procedure if exists sp_hoadon_timkiem
 go
@@ -68,10 +71,24 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    SELECT *
-    FROM HoaDon
+   SELECT hd.maHD as N'Mã hóa đơn', hd.ngayLap as N'Ngày lập', nv.tenNV as N'Người lập', hd.thanhTien as N'Tổng tiền'
+	from HoaDon hd, NhanVien nv
     WHERE ngayLap BETWEEN @ngayBatDau AND @ngayKetThuc;
 END
 GO
 
+
+-- ================================================
+-- Hóa đơn lấy danh sách theo yêu cầu
+-- ============================================
+drop procedure if exists sp_hoadon_layDanhSach_chitiet
+go
+CREATE PROCEDURE sp_hoadon_layDanhSach_chitiet
+@maHD char(10)
+AS
+BEGIN
+	SELECT sp.tenSP as N'Tên sản phẩm', sp.donGia as N'Đơn giá', ct.soLuong as N'Số lượng', sp.donGia * ct.soLuong as N'Thành tiền'
+	from ChiTietHD ct, SanPham sp
+	where ct.maSP = sp.maSP AND ct.maHD = @maHD
+END
 

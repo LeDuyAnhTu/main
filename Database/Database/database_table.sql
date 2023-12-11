@@ -25,7 +25,7 @@ go
 create table NhanVien(
 maNV char(10) not null,
 tenNV nvarchar(30) not null,
-gioiTinh nvarchar(3) not null,
+gioiTinh tinyint not null,
 ngaySinh date not null,
 SDT char(10) not null,
 CCCD char(11) not null,

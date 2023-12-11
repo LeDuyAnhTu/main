@@ -57,16 +57,5 @@ END
 GO
 exec sp_khachhang_layDanhSach
 
--- ================================================
--- Khách hàng lấy danh sách
--- ================================================
-drop procedure if exists sp_khachhang_timKiem_MaKH
-go
-CREATE PROCEDURE sp_khachhang_timKiem_MaKH
-@maKH char(10)
-AS
-BEGIN
-	select * 
-	from KhachHang
-	where maKH = @maKH
-END
+
+
