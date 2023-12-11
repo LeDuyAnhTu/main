@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -84,7 +84,7 @@ public class Database
                     msg = "sp_chinhanh_layDanhSach";
                     break;
                 case 10:
-                    msg = "sp_khuyenmai_layDanhSach";
+                    msg = "sp_loaisanpham_layDanhSach";
                     break;
             }
             cmd = new SqlCommand();
@@ -447,7 +447,7 @@ public class Database
                     msg = "sp_khuvuc_timkiem";
                     break;
                 case 2:
-                    msg = "sp_sanpham_timkiem_maSP";
+                    msg = "sp_sanpham_timkiem";
                     break;
             }
             cmd = new SqlCommand();
@@ -471,6 +471,102 @@ public class Database
             conn.Close();
         }
         return dt;
+    }
+    public DataTable TimKiem_ChitietHD_MaHD(string tukhoa)
+    {
+        dt = null;
+        try
+        {
+            string msg = "sp_chitiethoadon_timKiemTheoMaHD";
+            
+            cmd = new SqlCommand();
+            cmd.CommandText = msg;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = conn;
+
+            SqlParameter parameter = new SqlParameter("@maHD", tukhoa);
+            cmd.Parameters.Add(parameter);
+
+            da = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            da.Fill(dt);
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
+        finally
+        {
+            conn.Close();
+        }
+        return dt;
+    }
+    public DataTable LayChiTietHDTheoMaHoaDon(string tukhoa)
+    {
+        dt = null;
+        try
+        {
+            string msg = "sp_chitiethoadon_layDanhSach_chitiet";
+
+            cmd = new SqlCommand();
+            cmd.CommandText = msg;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = conn;
+
+            SqlParameter parameter = new SqlParameter("@maHD", tukhoa);
+            cmd.Parameters.Add(parameter);
+
+            da = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            da.Fill(dt);
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
+        finally
+        {
+            conn.Close();
+        }
+        return dt;
+    }
+    public DataTable TimHDTheoNgay(DateTime ngayBatDau, DateTime ngayKetThuc)
+    {
+
+        dt = null;
+   
+        try
+        {
+            conn.Open();
+
+            //Tạo SqlCommand để gọi stored procedure
+            cmd = new SqlCommand();
+            cmd.CommandText = "sp_hoadon_timkiem";
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = conn;
+
+            //Thêm các tham số vào stored procedure
+
+            SqlParameter parameter = new SqlParameter("@NgayBatDau", ngayBatDau);
+            SqlParameter parameter2 = new SqlParameter("@NgayKetThuc", ngayKetThuc);
+       
+       
+            cmd.Parameters.Add(parameter);
+            cmd.Parameters.Add(parameter2);
+            da = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            da.Fill(dt);
+
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
+        finally { conn.Close(); }
+
+        return dt;
+
+
     }
     public DataTable TimCNTheoMaKV(string maKV)
     {
