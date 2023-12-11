@@ -22,14 +22,16 @@ GO
 -- ================================================ 
 DROP PROCEDURE IF EXISTS sp_sanpham_xoa
 GO
+
 CREATE PROCEDURE sp_sanpham_xoa
 	@maSP char(10)
 AS
 BEGIN
-	
-	DELETE FROM SanPham WHERE maSP = @maSP
+	-- Đặt số lượng sản phẩm về 0
+	UPDATE SanPham SET soLuongConLai = 0 WHERE maSP = @maSP
 END
 GO
+
 -- ================================================
 -- Sản phẩm sửa
 -- ================================================ 
@@ -57,8 +59,8 @@ go
 CREATE PROCEDURE sp_sanpham_layDanhSach
 AS
 BEGIN
-	select maSP as N'Mã sản phẩm', tenSP as N'Tên sản phẩm', HSD, donGia as N'Đơn giá', soLuongConLai as N'Tồn kho', maLoai, maNCC 
-	from SanPham
+	select sp.maSP as N'Mã sản phẩm', sp.tenSP as N'Tên sản phẩm', sp.HSD, sp.donGia as N'Đơn giá', sp.soLuongConLai as N'Số lượng còn lại', lsp.tenLoai as N'Tên loại', ncc.tenNCC as N'Tên nhà cung cấp'
+	from SanPham sp, LoaiSP lsp, NhaCungCap ncc
 END
 GO
 exec sp_sanpham_layDanhSach
@@ -66,30 +68,14 @@ exec sp_sanpham_layDanhSach
 -- ================================================
 -- Tìm kiếm 
 -- ================================================ 
-DROP PROCEDURE IF EXISTS sp_sanpham_timkiem_tenSP
+DROP PROCEDURE IF EXISTS sp_sanpham_timkiem
 GO
-CREATE PROCEDURE sp_sanpham_timkiem_tenSP
+CREATE PROCEDURE sp_sanpham_timkiem
     @key nvarchar(30)
 AS
 BEGIN
-    SELECT maSP as N'Mã sản phẩm', tenSP as N'Tên sản phẩm', HSD, donGia as N'Đơn giá', soLuongConLai as N'Tồn kho', maLoai, maNCC 
-	FROM SanPham 
+   select sp.maSP as N'Mã sản phẩm', sp.tenSP as N'Tên sản phẩm', sp.HSD, sp.donGia as N'Đơn giá', sp.soLuongConLai as N'Số lượng còn lại', lsp.tenLoai as N'Tên loại', ncc.tenNCC as N'Tên nhà cung cấp'
+	from SanPham sp, LoaiSP lsp, NhaCungCap ncc
 	WHERE tenSP LIKE '%' + @key + '%'
 END
 GO
-
--- ================================================
--- Tìm kiếm theo mã
--- ================================================ 
-DROP PROCEDURE IF EXISTS sp_sanpham_timkiem_maSP
-GO
-CREATE PROCEDURE sp_sanpham_timkiem_maSP
-    @key char(10)
-AS
-BEGIN
-    SELECT * 
-	FROM SanPham 
-	WHERE maSP = @key
-END
-GO
-DROP PROCEDURE IF EXISTS sp_sanpham_timkiem_tenSP
